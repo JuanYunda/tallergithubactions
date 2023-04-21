@@ -24,4 +24,4 @@ jobs:
       run: npm test
 
     - name: Build Docker image
-      run: docker build -t <tallergithubactions> .
+      run: docker build -t "tallergithubactions" .
